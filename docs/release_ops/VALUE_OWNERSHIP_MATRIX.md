@@ -5,7 +5,7 @@
 | Package name | Human-entered value | `com.appstudioon.rushhoursurvivor` | Human operator | `.env.sample`, release docs | Android shell + Play Console |
 | Developer name | Human-entered value | `AppStudioOn` | Human operator | `.env.sample`, store prep doc | Play Console |
 | Support email | Human-entered value | `young02hwi@gmail.com` | Human operator | `.env.sample`, store prep doc | Play Console |
-| Privacy policy URL | Human-entered value | `YOUR_PRIVACY_POLICY_URL_HERE` | Human operator | `.env.sample`, store prep doc | Play Console + in-app settings |
+| Privacy policy URL | Human-entered value | `https://hhy0111.github.io/rush-hour-survivor/public/privacy-policy.html` | Human operator | `.env.sample`, store prep doc | Play Console + in-app settings |
 | AdMob App ID | Code-connected value | `SAMPLE_ANDROID_ADMOB_APP_ID` | release_ops_agent | `.env.sample` | Native/web config after issuance |
 | Banner unit ID | Code-connected value | `SAMPLE_ANDROID_BANNER_UNIT_ID` | release_ops_agent | `.env.sample` | Ad integration layer |
 | Rewarded unit ID | Code-connected value | `SAMPLE_ANDROID_REWARDED_UNIT_ID` | release_ops_agent | `.env.sample` | Ad integration layer |

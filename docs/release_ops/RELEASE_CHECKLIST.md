@@ -9,7 +9,7 @@
 | Art direction and review checklist exist | asset_agent | Done | Final assets still pending |
 | Release input ledger exists | release_ops_agent | Done | Live values pending |
 | Human/code/console values separated | release_ops_agent | Done | See value matrix |
-| Privacy policy page draft exists | release_ops_agent | Done | `public/privacy-policy.html` created; public URL still pending |
+| Privacy policy page draft exists | release_ops_agent | Done | `public/privacy-policy.html` created and deployed |
 | Live package and store metadata entered | Human operator | Pending | Missing inputs |
 | Live ads and IAP configured | Human operator + release_ops_agent | Pending | Placeholder only |
 | Final QA pass | qa_agent | Pending | Blocker for final completion |

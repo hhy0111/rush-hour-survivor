@@ -8,7 +8,7 @@
 - Support email: `young02hwi@gmail.com`
 - Short description: [TODO]
 - Full description: [TODO]
-- Privacy policy URL: [TODO], draft page file exists at `public/privacy-policy.html`
+- Privacy policy URL: `https://hhy0111.github.io/rush-hour-survivor/public/privacy-policy.html`
 - Content rating questionnaire: [확인 필요]
 - Data safety questionnaire: draft only
 - Feature graphic, icon, screenshots: required

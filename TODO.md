@@ -7,7 +7,6 @@
 
 ## [TODO]
 
-- 개인정보처리방침 페이지 배포 후 최종 URL 입력
 - 실제 AdMob App ID / Unit ID 발급
 - 실제 Google Play Billing 상품 ID와 가격표 확정
 - 앱 아이콘, 피처 그래픽, 스크린샷 제작 일정 입력

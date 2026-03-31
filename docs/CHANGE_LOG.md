@@ -10,3 +10,4 @@
 - `PATCH`: Switched Phaser to the Canvas renderer after headless screenshot validation exposed a black-canvas capture issue.
 - `PATCH`: Added a debug fail hook plus restart persistence browser test to make the QA loop reproducible.
 - `PATCH`: Locked the session target to 5 minutes, selected the Android package name, and added a standalone privacy-policy page draft.
+- `PATCH`: Recorded the live GitHub Pages privacy-policy URL in env and release tracking docs.

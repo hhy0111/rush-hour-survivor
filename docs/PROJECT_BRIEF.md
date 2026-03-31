@@ -21,7 +21,7 @@
 | Current project state | Empty folder | Confirmed | Initial scaffold created from scratch |
 | Developer name | `AppStudioOn` | Confirmed | Release owner set |
 | Support email | `young02hwi@gmail.com` | Confirmed | Public support contact set |
-| Privacy policy URL | [TODO] | Pending | Draft page exists, deployed URL not set yet |
+| Privacy policy URL | `https://hhy0111.github.io/rush-hour-survivor/public/privacy-policy.html` | Confirmed | Deployed via GitHub Pages |
 
 ## Scope Interpretation
 
@@ -38,7 +38,6 @@ MVP for this repo means:
 
 | Missing value | Why not fixed now | What unlocks a final decision |
 | --- | --- | --- |
-| Privacy policy URL | The page exists locally but not at a public URL yet | Final deployment location |
 | Ad and IAP live identifiers | Must be created outside code | AdMob / Play Console setup |
 
 ## File Ownership Map

@@ -48,7 +48,7 @@
 | App name | `Rush Hour Survivor` | Draft | planner_agent | Korean title also available |
 | Developer name | `AppStudioOn` | Confirmed | Human operator | Store legal owner |
 | Support email | `young02hwi@gmail.com` | Confirmed | Human operator | Public support contact |
-| Privacy policy URL | `YOUR_PRIVACY_POLICY_URL_HERE` | [TODO] | Human operator | Draft page created at `public/privacy-policy.html`; final deployed URL still needed |
+| Privacy policy URL | `https://hhy0111.github.io/rush-hour-survivor/public/privacy-policy.html` | Confirmed | Human operator | Public URL ready for Play Console and in-app settings |
 | Store description | [TODO] | Missing | planner_agent + release_ops_agent | Needs marketing copy pass |
 | Content rating | [확인 필요] | Missing | release_ops_agent | Likely low/teen, not final |
 | Ads included | Yes | Confirmed | release_ops_agent | Must match console flags |
