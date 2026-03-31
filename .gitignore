@@ -1,0 +1,10 @@
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+output/
+.DS_Store
+.env
+android/
+*.log

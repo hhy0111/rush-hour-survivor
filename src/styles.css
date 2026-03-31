@@ -1,0 +1,295 @@
+:root {
+  color-scheme: dark;
+  --bg: #060c14;
+  --panel: rgba(14, 24, 37, 0.88);
+  --panel-strong: rgba(18, 31, 47, 0.96);
+  --line: rgba(162, 180, 196, 0.18);
+  --text: #f3eedf;
+  --muted: #aebdca;
+  --accent: #f0bf2a;
+  --danger: #d05757;
+  --safe: #5dd0a6;
+  --stress: #f29b40;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Segoe UI", "Pretendard", sans-serif;
+  background:
+    radial-gradient(circle at top, rgba(62, 88, 116, 0.38), transparent 38%),
+    linear-gradient(180deg, #0a1623 0%, #060c14 100%);
+  color: var(--text);
+}
+
+button {
+  font: inherit;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.app-shell {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: minmax(280px, 360px) minmax(320px, 520px);
+  justify-content: center;
+  padding: 24px;
+}
+
+.info-rail,
+.game-column {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.28);
+}
+
+.info-rail {
+  padding: 28px;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  color: var(--accent);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.info-rail h1 {
+  margin: 0 0 12px;
+  font-size: 34px;
+  line-height: 1.05;
+}
+
+.lede {
+  margin: 0 0 20px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.status-grid {
+  display: grid;
+  gap: 12px;
+}
+
+.status-card {
+  padding: 14px 16px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.status-card strong {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.status-card span {
+  font-size: 18px;
+}
+
+.game-column {
+  padding: 18px;
+}
+
+.frame-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  color: var(--muted);
+}
+
+.frame-top button {
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.play-stage {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  background: var(--panel-strong);
+  min-height: 860px;
+}
+
+.canvas-wrap {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 860px;
+  touch-action: none;
+}
+
+.canvas-wrap canvas {
+  border-radius: 22px;
+}
+
+.hud {
+  position: absolute;
+  inset: 18px 18px auto;
+  display: grid;
+  gap: 12px;
+}
+
+.hud-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.hud-card {
+  min-width: 136px;
+  padding: 12px 14px;
+  border-radius: 18px;
+  background: rgba(8, 14, 22, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
+}
+
+.hud-card strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.hud-card span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.modifier-bar {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.modifier-chip {
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(240, 191, 42, 0.12);
+  border: 1px solid rgba(240, 191, 42, 0.28);
+  color: #f5d981;
+  font-size: 13px;
+}
+
+.hint-line {
+  padding: 12px 14px;
+  border-radius: 18px;
+  background: rgba(8, 14, 22, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--muted);
+}
+
+.overlay-card {
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 24px;
+  border-radius: 26px;
+  background: rgba(6, 13, 20, 0.88);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+.overlay-card h2 {
+  margin: 0 0 10px;
+  font-size: 30px;
+}
+
+.overlay-card p {
+  margin: 0 0 16px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.overlay-card button {
+  min-width: 170px;
+  padding: 14px 18px;
+  border: none;
+  border-radius: 18px;
+  background: var(--accent);
+  color: #08111a;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.overlay-card .secondary-line {
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+.is-hidden {
+  display: none;
+}
+
+.health {
+  color: var(--safe);
+}
+
+.stress {
+  color: var(--stress);
+}
+
+.fail {
+  color: var(--danger);
+}
+
+@media (max-width: 960px) {
+  .app-shell {
+    grid-template-columns: 1fr;
+    padding: 16px;
+  }
+
+  .play-stage,
+  .canvas-wrap {
+    min-height: 760px;
+  }
+}
+
+@media (max-width: 520px) {
+  .play-stage,
+  .canvas-wrap {
+    min-height: 100svh;
+    border-radius: 18px;
+  }
+
+  .game-column {
+    padding: 12px;
+  }
+
+  .frame-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hud-top {
+    flex-direction: column;
+  }
+
+  .overlay-card {
+    left: 14px;
+    right: 14px;
+  }
+}
+
